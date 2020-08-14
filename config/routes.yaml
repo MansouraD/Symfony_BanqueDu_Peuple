@@ -1,5 +1,5 @@
-#index:
- #   path: /
-  #  controller: App\Controller\AllController::index 
-   # methods: POST
+index:
+    path: /
+    controller: App\Controller\AllController::index 
+    methods: POST
     

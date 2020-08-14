@@ -2,6 +2,10 @@
 
 {% block title %}Banque du peuple{% endblock %}
 
+ {% block stylesheets %}
+    <link type="text/css" rel="stylesheet" href="{{ asset('css/style.css') }}" />
+ {% endblock %}
+
 {% block body %}
 <body>
         <header>
@@ -211,4 +215,8 @@
 
         </footer>
     </body>
+
+    {% block javascripts %}
+         <script type="text/javascript" src="{{ asset('script.js') }}" /></script>
+    {% endblock %}
 {% endblock %}

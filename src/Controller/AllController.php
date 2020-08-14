@@ -30,9 +30,7 @@ class AllController extends AbstractController
 
     public function index()
     {
-        return $this->render('all/index.html.twig', [
-            'controller_name' => 'AllController',
-        ]);
+        return $this->render('all/index.html.twig');
     }
 
     /**

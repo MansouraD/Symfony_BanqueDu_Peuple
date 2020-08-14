@@ -1,0 +1,235 @@
+
+.info_employeur{ 
+    background:url(i2.jpg);
+    color: rgb(25, 43, 95);
+    border-radius: 8px; 
+    margin: 10px; 
+    padding: 20px; 
+    width: 400px;
+    right: 15%; 
+    top: 105%;
+    position: absolute; 
+    display: none;
+}
+.info_compte{
+    background:url(i2.jpg);
+    color: rgb(25, 43, 95);
+    border-radius: 8px; 
+    margin: 10px; 
+    padding: 20px; 
+    width: 400px; 
+    right: 15%; 
+    position:absolute; 
+    top: 45%;
+    display: none;
+}
+.pore{
+    background: url(i2.jpg);
+    color: rgb(25, 43, 95);
+    border-radius: 8px; 
+    margin: 10px; 
+    padding: 20px; 
+    left: 17%;
+    top: 45%;
+    width: 400px; 
+    position: absolute;
+    display: none;
+}
+.aorn{
+    background: url(i2.jpg);
+    color: rgb(25, 43, 95);
+    border-radius: 8px; 
+    margin: 10px; 
+    padding: 20px; 
+    left: 17%;
+    top: 63%;
+    width: 400px; 
+    position: absolute;
+    display: none;
+}
+.sccp{
+    background: url(i2.jpg);
+    color: rgb(25, 43, 95);
+    border-radius: 8px; 
+    margin: 10px; 
+    padding: 20px; 
+    left: 17%;
+    top: 95%;
+    width: 400px; 
+    position: absolute;
+    display: none;
+
+}
+.scce{
+    background: url(i2.jpg);
+    color: rgb(25, 43, 95);
+    border-radius: 8px; 
+    margin: 10px; 
+    padding: 20px; 
+    left: 17%;
+    top: 95%;
+    width: 400px; 
+    position: absolute;
+    display: none;
+
+}
+
+button{ 
+    background-color:rgb(25, 43, 95); 
+    color: white;
+    position: absolute; 
+    right: 40%;
+    cursor: pointer; 
+    right: 25%; 
+    font-size: 18px; 
+    border: rgb(25, 43, 95); 
+    border-radius: 5px; 
+    text-transform: uppercase;
+    bottom: -15%;
+    display: none;
+    
+   
+}
+a:link{ 
+    text-decoration: none;
+    font-size: 15px; 
+    color: rgb(25, 43, 95); 
+    padding : 20px; 
+    margin-bottom: 3px; 
+    font-size: 30px;
+}
+.ligne{ 
+    color:rgb(241, 209, 66) 1px ;
+    border-bottom: solid rgb(241, 209, 66) 1px;
+}
+h1{  
+    color: rgb(241, 209, 66); 
+    text-align: center;
+}
+h2{ 
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color:rgb(25, 43, 95);  
+}
+h3{
+    text-align: right;
+    margin-right: 10px;
+    color:rgb(25, 43, 95);  
+}
+::placeholder {
+    color: gray;
+    opacity: 1;
+}
+.suite{
+    text-align: center;
+    border-bottom: solid rgb(241, 209, 66) 1px;
+}
+p{
+    text-align: center;
+    color: rgb(25, 43, 95);  
+    font-size: 20px ;
+}
+img{
+    width: 150px;
+    height: 150px;
+    top: 0%;
+    position: absolute;
+}
+fieldset {
+    margin-bottom:10px;
+    border:1px solid; 
+    text-transform: capitalize; 
+}
+label {
+    margin-top: 10px;
+    display: block ;
+}
+
+input{
+    float: right;
+    height: 15px;
+    width: 250px; 
+    border:rgb(52, 58, 73) solid 1px ;    
+}
+input[type=radio] {
+    background-color:rgb(25, 43, 95);
+    border:none;
+    width:20px;
+    
+}
+select{
+    text-transform: capitalize;
+    float: right;
+    
+}
+
+#menu ul{
+    margin: 10px;
+    padding: 0;
+    left: 40px;
+    position: absolute;
+}
+#menu li{
+    list-style: none;
+    float: left;
+    position: relative;
+    background-color: rgb(25, 43, 95) ;
+}
+#menu ul li a{
+    color: wheat ;
+    text-decoration: none;
+    width: 380px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    border: 1px solid rgb(25, 43, 95); 
+     
+}
+#menu ul ul {
+    position: absolute;
+    top : 20px;
+    visibility: hidden;
+}
+#menu ul li:hover ul {
+    visibility: visible;
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 40px;
+}
+/*.erreur{
+    position: absolute;
+    transform: translate(-50%);
+    top: 40%;
+    left: 50%;
+    padding: 0px;
+    color: red;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}*/
+.passe{
+    position: absolute;
+    transform: translate(-50%);
+    top: 40%;
+    left: 50%;
+    padding: 0px;
+    color: white;
+    background-color: green;
+    font-size: 20px;
+    transition: all 0.9s ease;
+}
+
+.casse{
+    position: absolute;
+    transform: translate(-50%);
+    top: 40%;
+    left: 50%;
+    padding: 0px;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    transition: all 0.9s ease;
+
+}
+
